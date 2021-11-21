@@ -213,7 +213,6 @@ hr{
         width: 100%;
     }
     .navbar a{
-        transform: scale(0.9);
         padding: 10px 10px;
         transition: 0.5s;
     }
