@@ -1,0 +1,74 @@
+/* CSS for page 2*/
+
+/* Heading */
+
+.flex-head2{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.flex-head2:before,.flex-head2:after{
+    content: ' ';
+    border-top: 5px solid;
+    margin: 0px 20px 0px 0px;
+    flex: 1 0 20px;
+    color: lightgray;
+}
+.flex-head2:after{
+    margin: 0 0 0 20px;
+}
+
+/*Back button*/
+#back-button-div{
+    display: flex;
+    justify-content: center;
+}
+/* Card Container and Card */
+
+.list-container2{
+    justify-content: center;
+}
+
+.card2{
+    min-height: 400px;
+    min-width: 350px;
+    border: 1px solid #FF5C58;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    display: flex;
+
+}
+
+.card2-heading{
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #FF5C58;
+    text-decoration: underline lightgray ;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.footer-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+.btn-ic{
+    padding: 0px 0px;
+}

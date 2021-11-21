@@ -1,0 +1,162 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+/*Css for add button on top and back button on page 2*/
+
+.btn-icontext{
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border:0px;
+    border-radius: 10px;
+    transition: 0.5s linear;
+}
+
+.btn-icontext:active{
+    transform: scale(0.9);
+
+}
+
+#plus-icon{
+    color: #FF5C58;
+    margin: 2px 2px;
+
+}
+
+.plus-button-text{
+    color: gray;
+    font-size: 1.1em;
+}
+
+
+/*Main outer container*/
+.outer-container{
+    margin: 20px 200px;
+    position: relative;
+}
+
+/*top heading and list row*/
+
+.flex-head, .list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.heading-bold{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.heading-thin{
+    font-weight: 200;
+    color: gray;
+}
+hr{
+    margin: 0px;
+}
+
+.padding-no{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+/*Card*/
+
+.card1{
+    min-height: 355px;
+    min-width: 229px;
+    border: 1px solid #FF5C58;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.card1-heading{
+    font-size: 0.7em;
+    font-weight: 200;
+    color: #FF5C58;
+    text-decoration: underline lightgray ;
+}
+
+.card1:active{
+    transform: scale(0.98);
+}
+
+/*Task List*/
+
+.ul-type{
+    list-style-type: none;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.list-text{
+    font-size: 0.58em;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 7px;
+    position: relative;
+
+}
+
+.cross{
+    text-decoration: line-through #FF5C58;
+    color: #FF5C58;
+    padding-left: 25px;
+}
+
+/*Bottom navbar*/
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #FF5C58;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.5em;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #FF5C58;
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link */
+  
+  .navbar a:active {
+    color: white;
+    transform: scale(0.95);
+  }
+  .navbar a.selected{
+      background-color: #FF5C58;
+      color: white;
+  }
