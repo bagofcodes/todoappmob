@@ -127,3 +127,39 @@
         border-radius: 8px;
     }
 }
+@media screen and (max-width:350px){
+
+    .flex-div{
+        flex-direction: row;
+        align-items: baseline;
+        margin-bottom: 30px;
+    }
+    .flex-head2{
+        display: inline;
+        width:80%;
+        order:2;
+    }
+    .flex-head2:before,.flex-head2:after{
+        content: '';
+        border-top: 0px;
+
+    }
+    .heading-bold1{
+        font-size: 1em;
+    }
+    #back-button-div{
+        display: inline;
+        order: 1;
+    }
+    .back-button-hide{
+        display: none;
+    }
+    #back-icon{
+        font-size: 1em;
+    }
+    .card2{
+        min-height: 300px;
+        min-width: 270px;
+        border-radius: 8px;
+    }
+}

@@ -209,14 +209,7 @@ hr{
     .ul-hide{
         display: none;
     }
-    .navbar{
-        width: 100%;
-    }
     .navbar a{
-        padding: 10px 10px;
-        transition: 0.5s;
-    }
-    .navbar a:active{
-        transform: scale(0.88);
+        font-size: 0.4em;
     }
 }
