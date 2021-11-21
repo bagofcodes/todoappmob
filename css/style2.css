@@ -1,7 +1,11 @@
 /* CSS for page 2*/
 
 /* Heading */
-
+.flex-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .flex-head2{
     text-align: center;
     display: flex;
@@ -9,6 +13,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 0px;
+    order:1;
 }
 
 .flex-head2:before,.flex-head2:after{
@@ -21,11 +26,21 @@
 .flex-head2:after{
     margin: 0 0 0 20px;
 }
+.heading-bold1{
+    font-size: 2em;
+    font-weight: bold;
+}
 
 /*Back button*/
 #back-button-div{
     display: flex;
     justify-content: center;
+    order:2;
+}
+#back-icon{
+    color: #FF5C58;
+    margin: 2px 2px;
+
 }
 /* Card Container and Card */
 
@@ -71,4 +86,44 @@
 
 .btn-ic{
     padding: 0px 0px;
+}
+
+
+/*Mobile View,ipad,small and screen view Css*/
+
+@media screen and (max-width:512px){
+
+    .flex-div{
+        flex-direction: row;
+        align-items: baseline;
+        margin-bottom: 30px;
+    }
+    .flex-head2{
+        display: inline;
+        width:80%;
+        order:2;
+    }
+    .flex-head2:before,.flex-head2:after{
+        content: '';
+        border-top: 0px;
+
+    }
+    .heading-bold1{
+        font-size: 1em;
+    }
+    #back-button-div{
+        display: inline;
+        order: 1;
+    }
+    .back-button-hide{
+        display: none;
+    }
+    #back-icon{
+        font-size: 1em;
+    }
+    .card2{
+        min-height: 350px;
+        min-width: 270px;
+        border-radius: 8px;
+    }
 }

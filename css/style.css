@@ -9,7 +9,7 @@ body{
 
 .btn-icontext{
     cursor: pointer;
-    padding: 0.5em 1.5em;
+    
     font-size: 1.2em;
     background-color: #ffffff;
     border:0px;
@@ -38,6 +38,8 @@ body{
 .outer-container{
     margin: 20px 200px;
     position: relative;
+    /* background-color: aquamarine; */
+    
 }
 
 /*top heading and list row*/
@@ -124,7 +126,7 @@ hr{
 /*Bottom navbar*/
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
-    background-color: #ffffff;
+    background-color:white;
     overflow: hidden;
     position: fixed;
     bottom: 10px;
@@ -160,3 +162,62 @@ hr{
       background-color: #FF5C58;
       color: white;
   }
+
+
+
+
+
+  /*Mobile View,ipad,small and screen view Css*/
+
+@media screen and (max-width:1169px){
+
+    .outer-container{
+        margin: 20px 10px;
+    }
+    .heading-bold{
+        font-size: 1.25em;
+    }
+    .plus-button-hide{
+        display: none;
+    }
+    #plus-icon{
+        font-size: 0.75em;
+    }
+    .btn-icontext{
+        padding: 0px;
+    }
+    hr{
+        display: none;
+    }
+    .card1{
+        margin: 0px;
+        margin-bottom: 30px;
+        min-width: 95%;
+        min-height: 10px;
+        text-align: left;
+        border-radius: 8px;
+        padding-left: 10px;
+        border: 0.1px solid lightpink;
+        box-shadow: 5px 5px 5px lightgray;
+    }
+    .card1-heading{
+        font-size: 0.5em;
+        font-weight: 400;
+        color: gray;
+        text-decoration: none;
+    }
+    .ul-hide{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar a{
+        transform: scale(0.9);
+        padding: 10px 10px;
+        transition: 0.5s;
+    }
+    .navbar a:active{
+        transform: scale(0.88);
+    }
+}

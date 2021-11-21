@@ -5,17 +5,22 @@
     display: hidden;
 }
 
+.outer-c{
+    margin: 20px 200px;
+    
+}
+
 .card3{
-    position: fixed;
-    top: 30%;
-    left: 37%;
+    position: absolute;
+    top: 37%;
+    left: 34%;
+    margin: 10px;
     height: 250px;
     width: 450px;
     border: 1px solid #FF5C58;
     background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 10px 10px 10px lightgray;
     border-radius: 20px;
-    margin: 10px;
     text-align: center;
     padding-bottom: 0px;
     display: flex;
@@ -53,4 +58,127 @@
 .btn-card:active{
     color:#FF5C58;
     background-color: #ffffff;
+}
+
+/*Mobile View,ipad,small and screen view Css*/
+@media screen and (min-width:320px) and (max-width:370px){
+
+    .outer-c{
+        margin: 20px 10px;
+    }
+    
+    .card3{
+        top: 30%;
+        left: 2%;
+        right: 1%;
+        width: 280px;
+        height: 200px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 8px;
+    }
+    .heading-card{
+        font-weight: 400;
+        font-size: 0.5em;
+        color:#FF5C58;
+    }
+    .in-box{
+        border: 1.5px solid #FF5C58;
+        height: 35px;
+        width: 190px;
+        border-radius: 4px;
+        box-shadow: 5px 5px 4px lightgray;
+    }
+    .btn-card{
+        height: 35px;
+        width: 80px;
+        font-size: 0.55em;
+        border-radius: 28px;
+        border:2px solid #FF5C58;
+        cursor: pointer;
+        transition: 0.3s linear;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width:370px) and (max-width:650px){
+
+    .outer-c{
+        margin: 20px 10px;
+    }
+    
+    .card3{
+        top: 30%;
+        left: 12%;
+        right: 1%;
+        width: 280px;
+        height: 200px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 8px;
+    }
+    .heading-card{
+        font-weight: 400;
+        font-size: 0.5em;
+        color:#FF5C58;
+    }
+    .in-box{
+        border: 1.5px solid #FF5C58;
+        height: 35px;
+        width: 190px;
+        border-radius: 4px;
+        box-shadow: 5px 5px 4px lightgray;
+    }
+    .btn-card{
+        height: 35px;
+        width: 80px;
+        font-size: 0.55em;
+        border-radius: 28px;
+        border:2px solid #FF5C58;
+        cursor: pointer;
+        transition: 0.3s linear;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width:650px) and (max-width:1169px){
+
+    .outer-c{
+        margin: 20px 10px;
+    }
+    
+    .card3{
+        top: 30%;
+        left: 30%;
+        width: 350px;
+        height: 250px;
+        box-shadow: 5px 5px 5px lightgray;
+        border-radius: 8px;
+    }
+    .heading-card{
+        font-weight: 400;
+        font-size: 0.7em;
+        color:#FF5C58;
+    }
+    .in-box{
+        border: 1.5px solid #FF5C58;
+        height: 40px;
+        width: 200px;
+        border-radius: 4px;
+        box-shadow: 5px 5px 4px lightgray;
+    }
+    .btn-card{
+        height: 35px;
+        width: 80px;
+        font-size: 0.55em;
+        border-radius: 28px;
+        border:2px solid #FF5C58;
+        cursor: pointer;
+        transition: 0.3s linear;
+    }
+    
+    
+    
 }
